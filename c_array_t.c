@@ -1,5 +1,10 @@
 //Выполнил студент 1РП-ИС Гамидов Абдул
-//
+//ошибок в функциях нет
+//любое совпадение в других кодах, я не несу ответственность
+//код также выложил на гитхаб readme читать обязательно!!!
+//https://github.com/Infinity-Unity/RPIS_Files/blob/main/c_array_t.c
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -149,10 +154,7 @@ void c_arr_print(const c_array_t *p_self, c_print_func pf) {
 }
 
 int main() {
-    int x = 5;
-    c_array_t *arr = c_arr_init_size_val(sizeof(int), 10, &x);
-    c_arr_destroy(arr);
-    return 0;
+
 
 }
 
